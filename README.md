@@ -1,0 +1,2 @@
+# CM3D2-Shop-Boughtlist-Downloader
+CM3D2 Shopの購入済みファイルをブラウザからダウンロード出来るようにするUserscript
