@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         COM3D2 Shop Boughtlist Downloader
 // @namespace    http://mizle.net/
-// @version      0.1
+// @version      0.11
 // @description  COM3D2 Shopの購入済みファイルをブラウザからダウンロード出来るようにします。
 // @author       eai04191
 // @license      MIT
