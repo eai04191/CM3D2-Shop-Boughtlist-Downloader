@@ -15,7 +15,7 @@
 
     document.querySelectorAll("a[onclick^='dl']").forEach(function(link){
         let value = link.attributes.onclick.value;
-        let params = value.replace(/[dl()']/g,"").split(",");
+        let params = value.replace(/[()']|dl/g,"").split(",");
         let newUrl = "http://cm3d2-shop-dl2.s-court.me/api/download.php"+
             "?itemid=" + params[0] +
             "&ott=" + params[1] +
